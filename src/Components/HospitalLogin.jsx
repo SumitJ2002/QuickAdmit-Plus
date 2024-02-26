@@ -56,7 +56,7 @@ const HospitalLogin = () => {
               <p className="mt-2 text-sm text-gray-600">
                 Or <br />
                 <br /> Don&apos;t have an Account?{" "}
-                <Link to="/hospital_register">
+                <Link to="/HospitalRegister">
                   <button className="font-medium text-indigo-600 hover:text-indigo-500">
                     Register
                   </button>

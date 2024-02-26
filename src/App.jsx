@@ -8,6 +8,7 @@ import PrivacyPolicy from "./Components/PrivacyPolicy";
 import HospitalRegister from "./Components/HospitalRegister";
 import DoctorRegister from "./Components/DoctorRegister";
 import DoctorLogin from "./Components/DoctorLogin";
+import PatientOTP from "./Components/PatientOTP";
 function App() {
   return (
     <>
@@ -15,10 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/hospital_login" element={<HospitalLogin />} />
-          <Route path="/hospital_register" element={<HospitalRegister />} />
-          <Route path="/doctor_login" element={<DoctorLogin />} />
-          <Route path="/doctor_register" element={<DoctorRegister />} />
+          <Route path="/HospitalLogin" element={<HospitalLogin />} />
+          <Route path="/HospitalRegister" element={<HospitalRegister />} />
+          <Route path="/DoctorLogin" element={<DoctorLogin />} />
+          <Route path="/DoctorRegister" element={<DoctorRegister />} />
+          <Route path="/PatientOTP" element={<PatientOTP />} />
           <Route path="/TermsandCondition" element={<TermsCondition />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         </Routes>

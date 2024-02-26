@@ -39,7 +39,7 @@ const DoctorLogin = () => {
               </div>
               <div>
                 <Link
-                  to="/forgot_password"
+                  to="/ForgotPassword"
                   className="text-sm text-violet-600 hover:text-violet-900 font-bold"
                 >
                   Forgot Password?
@@ -56,7 +56,7 @@ const DoctorLogin = () => {
               <p className="mt-2 text-sm text-gray-600">
                 Or <br />
                 <br /> Don&apos;t have an Account?{" "}
-                <Link to="/doctor_register">
+                <Link to="/DoctorRegister">
                   <button className="font-medium text-indigo-600 hover:text-indigo-500">
                     Register
                   </button>

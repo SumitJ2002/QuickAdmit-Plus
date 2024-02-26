@@ -22,16 +22,13 @@ const Footer = () => {
               </a>
             </div>
             <div className="link1 flex flex-col gap-4 w-full">
-              <a href="/doctor_login" className="text-xl text-white font-bold">
+              <a href="/DoctorLogin" className="text-xl text-white font-bold">
                 For Doctors
               </a>
-              <a
-                href="/hospital_login"
-                className="text-xl text-white font-bold"
-              >
+              <a href="/HospitalLogin" className="text-xl text-white font-bold">
                 For Hospitals
               </a>
-              <a href="/" className="text-xl text-white font-bold">
+              <a href="/PatientLogin" className="text-xl text-white font-bold">
                 For Patient
               </a>
             </div>

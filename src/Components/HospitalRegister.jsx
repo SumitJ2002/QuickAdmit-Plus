@@ -113,7 +113,7 @@ const HospitalRegister = () => {
               <div className="text-center">
                 <p className="mt-2 text-sm text-gray-600">
                   Already have an account?{" "}
-                  <Link to="/hospital_login">
+                  <Link to="/HospitalLogin">
                     <button className="font-medium text-indigo-600 hover:text-indigo-500">
                       Log in
                     </button>
